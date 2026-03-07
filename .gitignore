@@ -85,4 +85,6 @@ agent/
 docs/
 
 # GitHub CI workflows (internal)
-.github/
+# .github/ — 只保留 workflows，忽略其他
+.github/*
+!.github/workflows/
